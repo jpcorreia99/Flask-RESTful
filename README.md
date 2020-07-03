@@ -2,6 +2,13 @@
 
 Implementation of a basic product managment RESTful API in Flask, using both HTTP and JSON Web Token validation.
 
+## Content 
+ - **[How to run](#how-to-run)**
+ - **[User authentication](#user-authentication)**
+ - **[Users](#users)**
+ - **[Products](#products)**
+ 
+
 ## How to run
 Firstly run
   > pip install -r requirements.txt (Python 2), or pip3 install -r requirements.txt (Python 3)
@@ -33,7 +40,7 @@ The basic CRUD operations are implemented, these are:
  * Update: promote an user to admin;
  * Delete: delete an user.
  
-Only an user with admin permissions is able to perform this tasks
+Only an user with admin permissions is able to perform this tasks.
 
 ## Products
 
